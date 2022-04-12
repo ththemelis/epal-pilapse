@@ -5,7 +5,7 @@
 ## Υλικό και λογισμικό που χρησιμοποιήθηκε
 
 Για την δημιουργία της συσκευής χρησιμοποιήθηκαν τα παρακάτω υλικά:
-1.<a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Raspberry Pi 4</a>
+1. <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Raspberry Pi 4</a>
 2. Μια USB Web Camera
 3. USB stick
 
