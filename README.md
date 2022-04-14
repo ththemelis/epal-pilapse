@@ -11,6 +11,9 @@
 
 Για την καταγραφή των φωτογραφιών, χρησιμοποιήθηκε το λογισμικό <a href="https://github.com/fsphil/fswebcam">fswebcam</a>. Για την λήψη των φωτογραφιών σε τακτά χρονικά διαστήματα, χρησιμοποιήθηκε το λογισμικό cron. Για την δημιουργία του βίντεο, από το σύνολο των εικόνων, χρησιμοποιήθηκε το λογισμικό ffmpeg.
 
+
+ffmpeg -i image%01d.jpg -c:v libx264 output.mp4
+
 ffmpeg -r 60 -pattern_type glob -i '/home/pi/TimelapsePhotos/*.jpg' -c:v copy /home/pi/TimelapsePhotos/timelapse.avi
 
 ffmpeg -r 30 -pattern_type glob -i "*.jpg" -c:v libx264 -pix_fmt yuv420p -movflags +faststart timelapse.mp4
