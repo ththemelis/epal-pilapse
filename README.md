@@ -5,8 +5,8 @@
 ## Υλικό και λογισμικό που χρησιμοποιήθηκε
 
 Για την δημιουργία της συσκευής χρησιμοποιήθηκαν τα παρακάτω υλικά:
-1. <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="_blank">Raspberry Pi 4</a>
-2. Μια USB Web Camera
+1. <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">Raspberry Pi 4</a>
+2. <a href="https://www.raspberrypi.com/products/camera-module-v2/">Pi Camera</a>
 3. USB stick
 
 Για την καταγραφή των φωτογραφιών, χρησιμοποιήθηκε το λογισμικό <a href="https://github.com/fsphil/fswebcam">fswebcam</a>. Για την λήψη των φωτογραφιών σε τακτά χρονικά διαστήματα, χρησιμοποιήθηκε το λογισμικό cron. Για την δημιουργία του βίντεο, από το σύνολο των εικόνων, χρησιμοποιήθηκε το λογισμικό ffmpeg.
