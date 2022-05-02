@@ -13,7 +13,7 @@ minutesRun: 1
 photoInterval: 15
 
 # Επιλογή δημιουργίας animated gif.
-create_gif: True
+create_gif: False
 
 # Επιλογή ημιουργίας βίντεο.
 create_video: False
