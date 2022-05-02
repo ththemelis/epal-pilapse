@@ -1,0 +1,38 @@
+---
+# Βασικές ρυθμίσεις εφαρμογής
+
+# Ανάλυση φωτογραφίας. Αν το αφήσετε κενό { }, θα χρησιμοποιηθεί η προεπιλεγμένη ανάλυση.
+resolution: #{ }
+  width: 1920
+  height: 1080
+
+# Ο συνολικός χρόνος που θα γίνεται λήψη φωτογραφιών, σε λεπτά.
+minutesRun: 1
+
+# Ο χρόνος μεταξύ δύο λήψεων, σε δευτερόλεπτα.
+photoInterval: 15
+
+# Επιλογή δημιουργίας animated gif.
+create_gif: True
+
+# Επιλογή ημιουργίας βίντεο.
+create_video: False
+
+# Ειδικές ρυθμίσεις
+
+# Τιμή ISO. Τιμή 0 σημαίνει αυτόματο. Έγκυρες τιμές 60-800. https://picamera.readthedocs.io/en/release-1.13/api_camera.html#picamera.PiCamera.iso
+iso: 0
+
+# Ταχύτητα κλείστρου. Τιμή 0 σημαίνει αυτόματο. https://picamera.readthedocs.io/en/release-1.13/api_camera.html#picamera.PiCamera.shutter_speed
+shutter_speed: 0
+
+# Ισορροπία λευκού. Αν το αφήσετε κενό, θα χρησιμοποιηθεί αυτόματη ισορροπία λευκού. https://picamera.readthedocs.io/en/release-1.13/api_camera.html#picamera.PiCamera.awb_mode
+white_balance: { }
+  # red_gain: 1.3
+  # blue_gain: 1.75
+
+# Ρύθμιση της περιστροφής της κάμερας (Πιθανές τιμές 0, 90, 180 ή 270)
+rotation: 0
+
+# Γονικός φάκελος αποθήκευσης των φωτογραφιών. Προεπιλεγμένος είναι ο φάκελος που τρέχουμε το πρόγραμμα
+dir_path: ./
