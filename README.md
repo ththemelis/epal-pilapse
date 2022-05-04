@@ -14,13 +14,8 @@
 
 -   [Raspberry Pi
     4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
-
-```{=html}
-<!-- -->
-```
 -   [Pi Camera
     v2](https://www.raspberrypi.com/products/camera-module-v2/)
-
 -   USB stick
 
 Για την λήψη των φωτογραφιών, δημιουργήθηκε πρόγραμμα στην γλώσσα
